@@ -3,7 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{50B61BF4-486B-4055-B838-D52D60144B5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{DF03948E-4A3A-4034-88FA-CA30144B02B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823} = {FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}
+		{EE03BAEB-0BD5-4B20-9BDE-595B69B89979} = {EE03BAEB-0BD5-4B20-9BDE-595B69B89979}
+		{50B61BF4-486B-4055-B838-D52D60144B5E} = {50B61BF4-486B-4055-B838-D52D60144B5E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Graphics\Graphics.vcxproj", "{EE03BAEB-0BD5-4B20-9BDE-595B69B89979}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics", "Physics\Physics.vcxproj", "{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50B61BF4-486B-4055-B838-D52D60144B5E}.Debug|x64.ActiveCfg = Debug|x64
+		{50B61BF4-486B-4055-B838-D52D60144B5E}.Debug|x64.Build.0 = Debug|x64
+		{50B61BF4-486B-4055-B838-D52D60144B5E}.Release|x64.ActiveCfg = Release|x64
+		{50B61BF4-486B-4055-B838-D52D60144B5E}.Release|x64.Build.0 = Release|x64
+		{DF03948E-4A3A-4034-88FA-CA30144B02B7}.Debug|x64.ActiveCfg = Debug|x64
+		{DF03948E-4A3A-4034-88FA-CA30144B02B7}.Debug|x64.Build.0 = Debug|x64
+		{DF03948E-4A3A-4034-88FA-CA30144B02B7}.Release|x64.ActiveCfg = Release|x64
+		{DF03948E-4A3A-4034-88FA-CA30144B02B7}.Release|x64.Build.0 = Release|x64
+		{EE03BAEB-0BD5-4B20-9BDE-595B69B89979}.Debug|x64.ActiveCfg = Debug|x64
+		{EE03BAEB-0BD5-4B20-9BDE-595B69B89979}.Debug|x64.Build.0 = Debug|x64
+		{EE03BAEB-0BD5-4B20-9BDE-595B69B89979}.Release|x64.ActiveCfg = Release|x64
+		{EE03BAEB-0BD5-4B20-9BDE-595B69B89979}.Release|x64.Build.0 = Release|x64
+		{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}.Debug|x64.ActiveCfg = Debug|x64
+		{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}.Debug|x64.Build.0 = Debug|x64
+		{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}.Release|x64.ActiveCfg = Release|x64
+		{FA7AE756-E4AC-4F6D-8DF1-8C3BCCB6C823}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
