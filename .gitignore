@@ -27,3 +27,22 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio Files
+*.sdf
+*.suo
+*.opensdf
+*.ipch
+*.orig
+*.settings
+*.db
+*.opendb
+*.pdb
+*.exp
+*.tlog
+*.pch
+*.idb
+*.user
+
+# Build Folders
+Build/
